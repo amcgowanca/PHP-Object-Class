@@ -1,5 +1,5 @@
 {
-    "name" : "McGowanCorp/Object",
+    "name" : "mcgowancorp/object",
     "type" : "library",
     "description" : "A super class to be used as a base for all non-static classes.",
     "keywords" : [],
