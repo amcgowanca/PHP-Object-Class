@@ -1,13 +1,23 @@
 <?php
 /**
- * Standard object class in which all non-static classes should be
- * a subclass of (derived from). Provides base methods and modeled after
- * after Microsoft's C# and Java's object class.
+ * Object.php
  *
  * @link        https://github.com/amcgowanca/PHP-Object-Class
  * @copyright   Copyright (c) 2013 McGowan Corp. (http://www.mcgowancorp.com)
  * @license     http://opensource.org/licenses/BSD-3-Clause
  * @author      Aaron McGowan <aaron.mcgowan@mcgowancorp.com>
+ */
+
+namespace McGowanCorp;
+
+/**
+ * Standard object class in which all non-static classes should be
+ * a subclass of (derived from). Provides base methods and modeled after
+ * after Microsoft's C# and Java's object class.
+ *
+ * @package McGowanCorp
+ * @author Aaron McGowan <aaron.mcgowan@mcgowancorp.com>
+ * @version 1.0.0
  */
 class Object
 {
