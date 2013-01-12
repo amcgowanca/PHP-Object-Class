@@ -1,83 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project version="2.0.0a12" title="">
-  <file path="Object.php" hash="98ab6e64f3169dc8245ddf588351ba74" package="Default">
-    <class final="false" abstract="false" namespace="global" line="12" package="Default">
+  <file path="Object.php" hash="edfb61f4fc44725eccb48d01544c3e67" package="Default">
+    <docblock line="2">
+      <description>Object.php</description>
+      <long-description></long-description>
+      <tag line="2" name="link" description="https://github.com/amcgowanca/PHP-Object-Class" link="https://github.com/amcgowanca/PHP-Object-Class"/>
+      <tag line="2" name="copyright" description="Copyright (c) 2013 McGowan Corp. (http://www.mcgowancorp.com)"/>
+      <tag line="2" name="license" description="http://opensource.org/licenses/BSD-3-Clause"/>
+      <tag line="2" name="author" description="Aaron McGowan &lt;aaron.mcgowan@mcgowancorp.com&gt;"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="McGowanCorp" line="22" package="McGowanCorp">
       <extends/>
       <name>Object</name>
-      <full_name>\Object</full_name>
-      <docblock line="2">
+      <full_name>\McGowanCorp\Object</full_name>
+      <docblock line="13">
         <description>Standard object class in which all non-static classes should be
 a subclass of (derived from).</description>
         <long-description>&lt;p&gt;Provides base methods and modeled after
 after Microsoft's C# and Java's object class.&lt;/p&gt;</long-description>
-        <tag line="2" name="link" description="https://github.com/amcgowanca/PHP-Object-Class" link="https://github.com/amcgowanca/PHP-Object-Class"/>
-        <tag line="2" name="copyright" description="Copyright (c) 2013 McGowan Corp. (http://www.mcgowancorp.com)"/>
-        <tag line="2" name="license" description="http://opensource.org/licenses/BSD-3-Clause BSD 3-Clause"/>
-        <tag line="2" name="author" description="Aaron McGowan &lt;aaron.mcgowan@mcgowancorp.com&gt;"/>
+        <tag line="13" name="package" description="McGowanCorp"/>
+        <tag line="13" name="author" description="Aaron McGowan &lt;aaron.mcgowan@mcgowancorp.com&gt;"/>
+        <tag line="13" name="version" description="1.0.0"/>
       </docblock>
-      <method final="true" abstract="false" static="false" visibility="public" namespace="global" line="25" package="Default">
+      <method final="true" abstract="false" static="false" visibility="public" namespace="McGowanCorp" line="35" package="McGowanCorp">
         <name>__toString</name>
         <full_name>__toString</full_name>
-        <docblock line="14">
+        <docblock line="24">
           <description>Returns a string representation of this class instance.</description>
           <long-description>&lt;p&gt;This method should not be called directly, instead, PHP will invoke this
 magic method automatically when an instance of this class is used as a string.
 Instead, call the toString method.&lt;/p&gt;</long-description>
-          <tag line="14" name="access" description="public"/>
-          <tag line="14" name="return" description="Returns a string representation of this object." type="string">
+          <tag line="24" name="access" description="public"/>
+          <tag line="24" name="return" description="Returns a string representation of this object." type="string">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="14" name="uses" description="\Object::toString" refers="\Object::toString"/>
+          <tag line="24" name="uses" description="\McGowanCorp\Object::toString" refers="\McGowanCorp\Object::toString"/>
         </docblock>
       </method>
-      <method final="true" abstract="false" static="false" visibility="public" namespace="global" line="37" package="Default">
+      <method final="true" abstract="false" static="false" visibility="public" namespace="McGowanCorp" line="47" package="McGowanCorp">
         <name>getClassName</name>
         <full_name>getClassName</full_name>
-        <docblock line="30">
+        <docblock line="40">
           <description>Gets this object's class name as a string.</description>
           <long-description></long-description>
-          <tag line="30" name="access" description="public"/>
-          <tag line="30" name="return" description="Returns the name of this class." type="string">
+          <tag line="40" name="access" description="public"/>
+          <tag line="40" name="return" description="Returns the name of this class." type="string">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="30" name="see" description="get_class()" refers="\http://php.net/manual/en/function.get-class.php"/>
+          <tag line="40" name="see" description="get_class()" refers="\McGowanCorp\http://php.net/manual/en/function.get-class.php"/>
         </docblock>
       </method>
-      <method final="true" abstract="false" static="false" visibility="public" namespace="global" line="49" package="Default">
+      <method final="true" abstract="false" static="false" visibility="public" namespace="McGowanCorp" line="59" package="McGowanCorp">
         <name>getObjectHash</name>
         <full_name>getObjectHash</full_name>
-        <docblock line="42">
+        <docblock line="52">
           <description>Gets this object's SPL hash representation.</description>
           <long-description></long-description>
-          <tag line="42" name="access" description="public"/>
-          <tag line="42" name="return" description="Returns the object hash for this object." type="string">
+          <tag line="52" name="access" description="public"/>
+          <tag line="52" name="return" description="Returns the object hash for this object." type="string">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="42" name="see" description="spl_object_hash()" refers="\http://php.net/manual/en/function.spl-object-hash.php"/>
+          <tag line="52" name="see" description="spl_object_hash()" refers="\McGowanCorp\http://php.net/manual/en/function.spl-object-hash.php"/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="65" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="McGowanCorp" line="75" package="McGowanCorp">
         <name>toString</name>
         <full_name>toString</full_name>
-        <docblock line="54">
+        <docblock line="64">
           <description>Returns a string representation of this class instance.</description>
           <long-description>&lt;p&gt;Method should be overridden to allow derived instances to be used as a string
 and have a different representation then the default.&lt;/p&gt;
 
 &lt;p&gt;For example: Object [ %spl_object_hash% ]&lt;/p&gt;</long-description>
-          <tag line="54" name="access" description="public"/>
-          <tag line="54" name="return" description="Returns the string representation." type="string">
+          <tag line="64" name="access" description="public"/>
+          <tag line="64" name="return" description="Returns the string representation." type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
     </class>
-    <parse_markers>
-      <error line="0" code="50007">No page-level DocBlock was found in file Object.php</error>
-    </parse_markers>
   </file>
   <package name="Default" full_name="Default"/>
-  <namespace name="global" full_name="global"/>
+  <package name="McGowanCorp" full_name="McGowanCorp"/>
+  <namespace name="McGowanCorp" full_name="McGowanCorp"/>
   <marker count="0">todo</marker>
   <marker count="0">fixme</marker>
   <deprecated count="0"/>
