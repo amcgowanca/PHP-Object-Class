@@ -6,7 +6,7 @@
  *
  * @link        https://github.com/amcgowanca/PHP-Object-Class
  * @copyright   Copyright (c) 2013 McGowan Corp. (http://www.mcgowancorp.com)
- * @license     http://opensource.org/licenses/BSD-3-Clause BSD 3-Clause
+ * @license     http://opensource.org/licenses/BSD-3-Clause
  * @author      Aaron McGowan <aaron.mcgowan@mcgowancorp.com>
  */
 class Object
