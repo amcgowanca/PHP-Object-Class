@@ -1,0 +1,16 @@
+{
+    "name" : "McGowanCorp/Object",
+    "type" : "library",
+    "description" : "A super class to be used as a base for all non-static classes.",
+    "keywords" : [],
+    "homepage" : "https://github.com/amcgowanca/PHP-Object-Class",
+    "authors" : [
+        {
+            "name" : "Aaron McGowan",
+            "email" : "aaron.mcgowan@mcgowancorp.com"
+        }
+    ],
+    "require" : {
+        "php" : ">= 5.3.0"
+    }
+}
